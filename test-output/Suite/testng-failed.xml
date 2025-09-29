@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="methods" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="methods" name="WebkitTest(failed)">
+    <parameter name="BrowserName" value="webkit"/>
+    <classes>
+      <class name="playwright.tests.CrossbrowserTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- playwright.tests.CrossbrowserTest -->
+    </classes>
+  </test> <!-- WebkitTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->

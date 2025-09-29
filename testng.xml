@@ -1,9 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test thread-count="5" name="Test">
+<suite name="Suite" thread-count="3" parallel="true">
+  <test  name="ChromeTest">
+   <parameter name="BrowserName" value="Chrome"/>
     <classes>
-      <class name="selenium_projects.PlayWriteTests.TestNgTest"/>
+      <class name="playwright.tests.CrossbrowserTest"/>
     </classes>
   </test> <!-- Test -->
+  
+  <test name="FirefoxTest">
+   <parameter name="BrowserName" value="firefox"/>
+    <classes>
+      <class name="playwright.tests.CrossbrowserTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="WebkitTest">
+   <parameter name="BrowserName" value="webkit"/>
+    <classes>
+      <class name="playwright.tests.CrossbrowserTest"/>
+    </classes>
+  </test>  <!-- Test -->
 </suite> <!-- Suite -->

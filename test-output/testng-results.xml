@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-10T12:07:48Z" name="Default suite" finished-at="2025-09-10T12:08:05Z" duration-ms="16450">
+  <suite started-at="2025-09-29T11:13:28Z" name="Default suite" finished-at="2025-09-29T11:13:46Z" duration-ms="18306">
     <groups>
     </groups>
-    <test started-at="2025-09-10T12:07:48Z" name="Default test" finished-at="2025-09-10T12:08:05Z" duration-ms="16450">
-      <class name="playwright.tests.KeyBoardEvents">
-        <test-method signature="KeyboardTest()[pri:0, instance:playwright.tests.KeyBoardEvents@196a42c3]" started-at="2025-09-10T12:07:48Z" name="KeyboardTest" finished-at="2025-09-10T12:08:05Z" duration-ms="16415" status="PASS">
+    <test started-at="2025-09-29T11:13:28Z" name="Default test" finished-at="2025-09-29T11:13:46Z" duration-ms="18306">
+      <class name="practisetests.DragAndDrop">
+        <test-method signature="dragAndDrop()[pri:0, instance:practisetests.DragAndDrop@35dab4eb]" started-at="2025-09-29T11:13:28Z" name="dragAndDrop" finished-at="2025-09-29T11:13:46Z" duration-ms="18267" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- KeyboardTest -->
-      </class> <!-- playwright.tests.KeyBoardEvents -->
+        </test-method> <!-- dragAndDrop -->
+      </class> <!-- practisetests.DragAndDrop -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
